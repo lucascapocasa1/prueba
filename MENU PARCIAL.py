@@ -46,4 +46,11 @@ while not flag_salir:
 # VALIDACION ##
 
 
-
+if(opcion == 1):
+        pregunta_modificacion(cursos)
+    elif(opcion == 2):
+        listar_cursos(cursos) #Que cuesten mas de 1150$
+    elif(opcion == 3):
+        cargar_asistentes(cursos)
+    elif(opcion == 4):
+        mostrar_cursos(cursos)
