@@ -1,4 +1,5 @@
 # MENU ##
+#LUCASLUCASLUCASLUCASCLUCASCLUASC#
 
 opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
 
