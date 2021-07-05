@@ -6,7 +6,7 @@ opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 
 flag_salir = False
 
 while not flag_salir:
-    #while opcion != 5:
+    #while opcion != 8:
 
     if opcion == "1":
     
@@ -49,9 +49,14 @@ while not flag_salir:
     
        "actualizar entregas de alumnos via mail"
         
+        opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
+
+        
    else opcion == "8":
     
         "salir"
+        
+        opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
 
         flag_salir = True 
 
