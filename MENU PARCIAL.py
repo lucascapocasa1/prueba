@@ -9,31 +9,49 @@ while not flag_salir:
     #while opcion != 5:
 
     if opcion == "1":
-
-        pass
+    
+        "listar archivos de la carpeta actual"
 
         opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
 
 
     elif opcion == "2":
 
-        pass
+        "crear un archivo"
 
         opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
 
     elif opcion == "3":
 
-        pass
+        "subir un archivo"
            
         opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
 
     elif opcion == "4":
 
-        pass
+        "descargar un archivo"
 
         opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
 
-    else opcion == "5":
+    elif opcion == "5":
+        
+        "sincronizar"
+        
+        
+    elif opcion == "6":
+        
+      "generar carpetas de una evaluacion"
+        
+      opcion = input("Pulse 1 para elegir duracion, 2 para configurar probabilidades, 3 para iniciar partida, 4 para ver el ranking, o 5 para salir.")
+
+        
+   elif opcion == "7":
+    
+       "actualizar entregas de alumnos via mail"
+        
+   else opcion == "8":
+    
+        "salir"
 
         flag_salir = True 
 
@@ -44,13 +62,3 @@ while not flag_salir:
 
 
 # VALIDACION ##
-
-
-if(opcion == 1):
-        pregunta_modificacion(cursos)
-    elif(opcion == 2):
-        listar_cursos(cursos) #Que cuesten mas de 1150$
-    elif(opcion == 3):
-        cargar_asistentes(cursos)
-    elif(opcion == 4):
-        mostrar_cursos(cursos)
